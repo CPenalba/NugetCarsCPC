@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Nuget Linq Sql</Title>
+    <Authors>Carolina Penalba</Authors>
+    <Description>Nuget Cars Linq Sql</Description>
+    <PackageTags>lluvia, coches, cars</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="coches.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="coches.xml" />
+  </ItemGroup>
+
+</Project>
