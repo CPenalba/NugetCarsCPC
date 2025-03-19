@@ -9,6 +9,7 @@
     <Description>Nuget Cars Linq Sql</Description>
     <PackageTags>lluvia, coches, cars</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
